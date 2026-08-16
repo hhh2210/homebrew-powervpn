@@ -6,7 +6,7 @@ class Powervpn < Formula
   # Placeholder until the v0.1.0 tag exists upstream; scripts/release.sh downloads
   # the tarball, computes the digest and rewrites this line. All-zero digest is
   # intentional: brew fetch/install will fail until a real tag is pinned.
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "02ba7e54c101152d0ff17696fdf799573a76a178dd813d4460256cb6b59f7a2a"
   license "MIT"
 
   # Source build: swift(1) ships with Apple's developer tools, so there is no
