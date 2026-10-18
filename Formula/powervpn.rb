@@ -9,7 +9,7 @@ class Powervpn < Formula
 
   bottle do
     root_url "https://github.com/hhh2210/homebrew-powervpn/releases/download/bottles"
-    sha256 arm64_sequoia: "614e9a27c81f5ab2975c835590f8ba58b3c2a42efc4486ab5d8e107b0719aa44"
+    sha256 arm64_sequoia: "c9f62ebac9f5830b86626b9b893ac9e31fe29d7b30af71339c59edf9a3a33719"
   end
 
   # Source build. swift(1) from the Command Line Tools is enough; full Xcode is
