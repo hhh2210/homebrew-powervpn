@@ -7,6 +7,11 @@ class Powervpn < Formula
   # (GPL-2.0-or-later) with a private copy of OpenSSL's libcrypto (Apache-2.0).
   license all_of: ["MIT", "GPL-2.0-or-later", "Apache-2.0"]
 
+  bottle do
+    root_url "https://github.com/hhh2210/homebrew-powervpn/releases/download/bottles"
+    sha256 arm64_sequoia: "614e9a27c81f5ab2975c835590f8ba58b3c2a42efc4486ab5d8e107b0719aa44"
+  end
+
   # Source build. swift(1) from the Command Line Tools is enough; full Xcode is
   # not needed. These are needed only to build the patched strongSwan runtime,
   # which links a private libcrypto copy, so none are runtime dependencies.
