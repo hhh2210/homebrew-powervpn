@@ -1,8 +1,8 @@
 class Powervpn < Formula
   desc "Reach servers behind THU LeadSec PowerVPN with a patched strongSwan"
   homepage "https://github.com/hhh2210/powervpn-cli"
-  url "https://github.com/hhh2210/powervpn-cli/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "63581fedd44f90aeedac5fe8b87e251826ecc9d895c8742130cb16284dc3836f"
+  url "https://github.com/hhh2210/powervpn-cli/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "2ace8d9b47e90e50b3bc8e2cb86c2cf7b4e1e314a44681be2facc3ee6c7f2319"
   # powervpn-cli is MIT. The bundled charon runtime is strongSwan
   # (GPL-2.0-or-later) with a private copy of OpenSSL's libcrypto (Apache-2.0).
   license all_of: ["MIT", "GPL-2.0-or-later", "Apache-2.0"]
